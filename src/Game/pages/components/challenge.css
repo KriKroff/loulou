@@ -1,0 +1,19 @@
+.challenge-numbers {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.challenge-number {
+    padding: 30px;
+    margin: 1rem;
+    border: 1px solid white;
+    box-shadow: 0 0 0 1px black;
+    cursor: pointer;
+    flex-basis: 10%;
+}
+
+.challenge-number.error {
+    border: 1px solid red;
+}
+
