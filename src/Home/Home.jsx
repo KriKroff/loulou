@@ -7,14 +7,14 @@ const Home = ({onStart}) => {
             <p>
                 La cabane est actuellement 🔒🔒🔒 fermée 🔒🔒🔒 ! <br/>
                 <strong>PERSONNE</strong> ne peut rentrer !!! Oh la la 😢 😢 😢. <br/>
-                La pyjama party ne pourra pas avoir lieu sans trouver la 🔑clef🔑. 
+                La pyjama party ne pourra pas avoir lieu sans trouver la 🔑clé 🔑. 
             </p>
             <p>
                 <strong>Votre mission</strong> :
-                <ul>
-                    <li>Réussir chaque défi pour trouver le code secret</li>
-                    <li>Grace à l'énigme, trouver la clef</li>
-                    <li>S'amuser, être une licorne 🦄, un panda 🐼, un lapin 🐇</li>
+                <ul className="list-no-style">
+                    <li>➡ Réussir chaque défi pour trouver le code secret</li>
+                    <li>➡ Grace à l'énigme, trouver la clef</li>
+                    <li>➡ S'amuser, être une licorne 🦄, un panda 🐼, un lapin 🐇</li>
                 </ul>
             </p>
             <h3>💙💙💙💙💙💙💙 Etes-vous prêtes ??? 💙💙💙💙💙💙💙</h3>

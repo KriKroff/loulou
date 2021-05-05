@@ -7,7 +7,7 @@ function App() {
     const [started, setStarted] = useState(false);
     return (<div className="App">
         <div className="header">
-            <h1>Pyjama party de 🎧 <span className="rainbow-text">Louise</span> 🎧</h1>
+            <h1><span className="rainbow-text">Pyjama party de </span> 🎧 <span className="rainbow-text-name">Louise</span> 🎧</h1>
         </div>
         <main>
             {!started && <Home onStart={() => setStarted(true)}/>}

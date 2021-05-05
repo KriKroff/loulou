@@ -6,7 +6,7 @@ body {
   text-align: center;
   font-family: "Comic Sans MS";
   //background: radial-gradient(red, blue);
-  background: linear-gradient(red, orange, green, deepskyblue, blue);
+  background: linear-gradient(white, deepskyblue, pink, purple);
   background-color: black;
   min-height: 100vh;
   color: black;
@@ -25,21 +25,35 @@ body {
 
 main {
   padding: 1rem;
-  background-color: #f1f1f1;
-  border-radius: 5px;
+  background: whitesmoke;
+  border-radius: 20px;
   border: 1px solid brown;
   border-right-color: rosybrown;
   border-bottom-color: rosybrown;
+  box-shadow: 1px 1px 100px 10px greenyellow;
 }
 
 .rainbow-text {
+  background-image: radial-gradient(lawngreen, deeppink);   -webkit-background-clip: text;
+  color: transparent;
+}
+
+.rainbow-text-name {
   text-transform: uppercase;
-  background-image: linear-gradient(to right, white, cyan, blue);   -webkit-background-clip: text;
+  background-image: linear-gradient(to right, blue, deeppink);   -webkit-background-clip: text;
   color: transparent;
 }
 
 h1 {
   font-size: calc(10px + 2vmin);
+}
+
+ul.list-no-style {
+  list-style: none;
+}
+
+.bigmoji {
+  font-size: 3rem;
 }
 
 .App-link {
